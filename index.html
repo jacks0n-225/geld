@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abschlusspräsentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- STARTSCREEN / TITELBILD -->
+  <div id="startScreen" aria-hidden="false">
+    <div class="start-inner">
+      <div class="start-title">
+        <div class="start-line1">Dialektisches Geld</div>
+        <div class="start-line2"><span class="em">Freiheit</span> oder <span class="em">Zwang</span></div>
+      </div>
+
+      <div class="start-actions">
+        <button id="btnNotes" class="btn">Presenter Notes</button>
+        <button id="btnFullscreen" class="btn">Fullscreen</button>
+        <button id="btnStart" class="btn btn-primary">Presentation starten</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="header-title">
+        <div class="line1">Dialektisches Geld</div>
+        <div class="line2">
+          <span class="em">Freiheit</span> oder <span class="em">Zwang</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <canvas id="canvas"></canvas>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-left">Projekt Geld und Geist</div>
+      <div class="footer-center">Hochschule München</div>
+      <div class="footer-right">Jakob Giggenbach</div>
+    </div>
+  </footer>
+
+  <!-- Slide Panel -->
+  <div id="panel" class="hidden" aria-hidden="true">
+    <div class="textbox">
+      <div id="slideTitle" class="title"></div>
+      <ul id="bullets" class="bullets"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
