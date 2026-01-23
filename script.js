@@ -326,11 +326,27 @@ const slides = [
       "Man gewinnt – und versteht erst danach, was dieser Gewinn bedeutet hat."
     ]
   },
+  {
+
+      // Folie 13 – Abschluss
+    camera: { x: IMG_W / 2 , y: IMG_H / 2, zoomMul: 1 },
+    title: "Was ist noch geplant?",
+    bullets: [
+      "Grafiküberarbeitung",
+      "Spielbrett als physisches Objekt umsetzen",
+      "Testen Testen Testen!"
+    ],
+    notes: [
+      "Ich werde noch mehr an der Grafik arbeiten, um das Spiel optisch ansprechender und einheitlicher zu machen.",
+      "Ich werde mehr Karten entwerfen und das Spielbrett als physisches Objekt umsetzen.",
+      "Ich muss in der nächsten Zeit vor allem testen, testen, testen!"
+    ]
+  },
 
   {
-  // Folie 13 – Bildtausch (Special)
+  // Folie 14 – Bildtausch (Special)
   camera: { x: IMG_W / 2, y: IMG_H / 2, zoomMul: 4.5 }, // wie Folie 1
-  title: "Folie 13 – Bildwechsel",
+  title: "Folie 14 – Bildwechsel",
   bullets: [], // keine Bullets
   notes: [
     "Hier wird das Canvas-Bild gewechselt, ohne dass sich Zoom/Position ändern.",
